@@ -1,0 +1,58 @@
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;}
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;}
+.ah{
+  margin-right: 385px;
+  margin-left:10;
+  color:white;
+  text-decoration: none}
+.aha{
+  text-decoration: none;
+  color: white;}
+header{
+  background-color:rgba(72, 125, 31, 1);
+  margin: -10px;
+  height: 90px;
+  padding-top: 12.5px;}
+body{
+  background-color: rgba(210, 251, 218, 1);}
+h2{
+  font-size:30px;
+  margin-top:100px ;
+  margin-left:900px ;}
+figcaption{
+  background-color: rgba(49, 119, 91, 1);
+  border:outset, 7px, rgba(30, 65, 27, 1);
+  width: 200px;
+  height: 300px;
+  color: white;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border:outset, 7px, rgba(30, 65, 27, 1);
+}
+.products{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.products>figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer{
+  background-image: url(горы1.png);
+  background-repeat: no-repeat;
+}
+.footer>*{
+  background-image: url(горы1.png);
+  background-repeat: no-repeat;
+}
